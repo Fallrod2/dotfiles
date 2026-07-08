@@ -46,6 +46,7 @@ eval "$(zoxide init zsh)"
 
 alias cd="z"
 
+mini() { ssh -t macmini "tmux new-session -A -s ${1:-claw}"; }
 
 
 # >>> conda initialize >>>
