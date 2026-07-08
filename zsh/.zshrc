@@ -1,9 +1,9 @@
 
 # Start the tmux session if not alraedy in the tmux session
-#if [[ ! -n $TMUX  ]]; then
-#    tmux kill-session -a
-#    tmux
-#fi
+if [[ ! -n $TMUX  ]]; then
+    tmux kill-session -a
+    tmux
+fi
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
