@@ -18,5 +18,7 @@ fi
 # Symlinks
 cd "$(dirname "$0")"
 stow zsh tmux
+claude:
+	stow --no-folding -R claude
 
 echo "Done. Ouvre un nouveau terminal, puis dans tmux : prefix + I pour les plugins."
